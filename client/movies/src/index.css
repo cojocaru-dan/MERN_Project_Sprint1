@@ -19,12 +19,9 @@ code {
 }
 
 li {
-  /* border-style: solid;
-  border-width: 3px;
-  border-color: black; */
   float: left;
   width: 33.33%;
-  height: 930px;
+  height: 750px;
 }
 
 li:hover {
@@ -34,27 +31,67 @@ li:hover {
 button {
   background-color: #4CAF50;
   padding: 9px 19px;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   cursor: pointer;
   border-radius: 15px;
-  box-shadow: 0 9px #595555;
-  transform: translate(2px, 2px);
-  transition: transform 0.3s;
-}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 2px #413f3f;
-  transform: translate(50px, 50px);
+  box-shadow: 2px 5px #595555;
 }
 
 img {
-  width: 70%;
-  height:50%;
+  width: 45%;
 }
 
 h3 {
+  width: fit-content;
   line-height: 1;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h4 {
+  width: fit-content;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.selected-movie {
+  display: flex;
+}
+
+.selected-movie-description {
+  width: 35%;
+}
+
+.selected-movie-ratings-reviews {
+  width: 50%;
+}
+
+.rate-movie-please {
+  height: 30px;
+}
+
+.reviews {
+  margin-top: 70px;
+}
+
+.username-input {
+  position: relative;
+  left: 53px;
+}
+
+.username-review {
+  width: 50%;
+  height: 70px;
+}
+
+.review {
+  display: block;
+  border: 1px solid;
+}
+
+.selected-movie-description > img {
+  width: 47%;
+}
+
+.search {
+  font-size: 25px;
 }

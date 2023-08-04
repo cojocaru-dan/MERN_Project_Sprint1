@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './Pages/HomePage';
 import UpdatePage from './Pages/UpdatePage';
+import ShowSelectedMovie from './Pages/ShowSelectedMovie';
 import movieTitles from "./movieTitles.json";
 import storeMovies from './Utils/storeMovies';
 
@@ -30,6 +31,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/update/:id" element={<UpdatePage />} />
+        <Route path="/movie/:id" element={<ShowSelectedMovie />} />
       </Routes>
     </BrowserRouter>
   );
