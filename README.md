@@ -3,13 +3,13 @@ MERN_Project_Sprint1
 <h1 align="center">Hi 👋, I'm Cojocaru Dan</h1>
 <h3 align="center">I am in the process of learning and improving to pursue a career as a full stack developer.</h3>
 
+In this project we create a movie website. On our home page we have a list of movies. The user has the possibility to select one of these movies to see the movie description. By accessing certain endpoints he can see the movies in descending order or one specific movie. He can update or delete a movie and also he can rate the movie from 1 to 10 or leave a review for that movie. 
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=cojocaru-dan&label=Profile%20views&color=0e75b6&style=flat" alt="cojocaru-dan" /> </p>
 
-- 🔭 I’m currently working on **MERN Project first part**
+- 🌱 From this project we learn **React, Express, Mongo DB, CSS**
 
-- 🌱 I’m currently learning **React, Express, Mongo DB**
-
-- 📫 How to reach me **dan.cojocaru90233@gmail.com**
+- 📫 My contact address **dan.cojocaru90233@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
